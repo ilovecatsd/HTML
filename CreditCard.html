@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html​>
+ ​<​html​>
+
+    ​<​body​>
+        ​    ​<​form​>
+            ​        ​<​label​>
+                ​    ​<​span​ ​class​="​nmoncd​" ​>​Name on Card​</​span​>
+                ​    ​<​input​ ​name​="​nameoncard​" ​type​="​text​" ​placeholder​="​Enter Your Name​" ​>
+            </​label​>
+            ​        ​<​label​>
+
+                ​    ​<​span​ ​class​="​cdnum​" ​>​Card Number ​<​span​>​(Dashes not required)​</​span​>​</​span​>
+                ​    ​<​input​ ​name​="​cardnumber​" ​type​="​text​" ​placeholder​="​XXXX-XXXX-XXXX-XXXX​" ​>
+            </​label​>
+            ​        ​<​label​ ​class​="​exp​" ​>
+                ​    ​<​span​ ​class​="​expdt​" ​>​Exp. Date​</​span​>
+                ​    ​<​input​ ​name​="​experationdate​" ​type​="​text​" ​placeholder​="​MM/YYYY​" ​>
+            </​label​>
+            ​        ​<​label​ ​class​="​cvv​" ​>
+                ​    ​<​span​ ​class​="​cvvnum​" ​>​CVV​</​span​>
+                ​    ​<​input​ ​name​="​cvvnumber​" ​type​="​text​" ​placeholder​="​XXX​" ​>
+            </​label​>
+            ​        ​<​button​ ​type​="​submit​" ​>
+                ​    Buy Now
+            </​button​>
+        </​form​>
+        ​    ​<​style​>
+            ​        ​HTML​ ​CSSResult​ ​Skip​ ​Results​ ​Iframe​ ​EDIT​ ​ON​ ​@import​ ​url​(​"https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"​);
+            ​        ​*​ {
+            ​            ​box-sizing​:​ border-box;
+            ​        }
+
+            ​        ​body​ {
+            ​            ​display​:​ flex;
+            ​            ​height​:​ ​100​vh​;
+            ​            ​justify-content​:​ center;
+            ​            ​align-items​:​ center;
+            ​            ​font-size​:​ ​1.5​em​;
+            ​            ​font-family​:​ Raleway​,​ Helvetica​,​ sans-serif;
+            ​            ​font-weight​:​ ​100​;
+            ​            ​background​:​ ​linear-gradient​( ​192​deg​);
+            ​        }
+
+            ​        ​input​ {
+            ​            ​padding​:​ ​0.6​em​ ​0.25​em​ ​0​;
+            ​            ​font-size​:​ ​1.5​em​;
+            ​            ​height​:​ ​2.1​em​;
+            ​            ​margin-bottom​:​ ​0.25​em​;
+            ​            ​border​:​ none;
+            ​            ​border-bottom​:​ ​1​px​ solid peachpuff;
+            ​            ​font-family​:​ Raleway​,​ Helvetica​,​ sans-serif;
+            ​            ​font-weight​:​ ​100​;
+            ​            ​border-radius​:​ ​0.25​em​;
+            ​        }
+
+            ​        ​label​ ​span​ {
+            ​            ​font-size​:​ ​0.75​em​;
+            ​        }
+
+            ​        ​form​ {
+            ​            ​width​:​ ​100​%​;
+            ​            ​max-width​:​ ​23​em​;
+            ​            ​border​:​ ​1​px​ solid ​#​ed912f​;
+            ​            ​padding​:​ ​0.75​em​;
+            ​            ​display​:​ flex;
+            ​            ​flex-wrap​:​ wrap;
+            ​            ​justify-content​:​ space-between;
+            ​            ​align-items​:​ center;
+            ​            ​background-color​:​ ​#​fff0f0​;
+            ​            ​filter​:​ ​drop-shadow​(​-0.25​em​ ​0.25​em​ ​0.25​em​ ​rgba​(​0​,​ ​0​,​ ​125​,​ ​0.25​));
+            ​            ​border-radius​:​ ​0.375​em​;
+            ​        }
+
+            ​        ​form​ ​label​ {
+            ​            ​position​:​ relative;
+            ​        }
+
+            ​        ​form​ ​label​>​span​ {
+            ​            ​position​:​ absolute;
+            ​            ​top​:​ ​0.25​em​;
+            ​            ​left​:​ ​0.25​em​;
+            ​        }
+
+            ​        .​cdnum​ ​span​ {
+            ​            ​color​:​ ​#​555​;
+            ​            ​font-size​:​ ​0.8​em​;
+            ​        }
+
+            ​        .​cvv​ {
+            ​            ​width​:​ ​25​%​;
+            ​        }
+
+            ​        ​label​,
+            ​        ​input​ {
+            ​            ​width​:​ ​100​%​;
+            ​        }
+
+            ​        .​exp​ {
+            ​            ​width​:​ ​calc​(​75​%​ ​-​ ​0.75​em​);
+            ​        }
+
+            ​        ​button​ {
+            ​            ​width​:​ ​100​%​;
+            ​            ​height​:​ ​2.75​em​;
+            ​            ​font-size​:​ ​1​em​;
+            ​            ​font-family​:​ Raleway​,​ Helvetica​,​ sans-serif;
+            ​            ​background-color​:​ ​#​e56a9f​;
+            ​            ​border​:​ none;
+            ​            ​color​:​ ​#​fff​;
+            ​            ​border-radius​:​ ​0.25​em​;
+            ​            ​margin​:​ ​0.25​em​ ​0​ ​0​ ​0​;
+            ​            ​padding​:​ ​0.5​em​;
+            ​        }
+
+            ​        ​button​:​hover​,
+            ​        ​button​:​focus​ {
+            ​            ​background-color​:​ ​#​eb0062​;
+            ​        }
+
+            ​         ::​placeholder​ {
+            ​            ​color​:​ ​#​ccc​;
+            ​            ​opacity​:​ ​1​;
+            ​        }
+
+            ​         ::​-ms-input-placeholder​ {
+            ​            ​color​:​ ​#​ccc​;
+            ​        }
+
+            ​        ​input​:​focus​ {
+            ​            ​outline-color​:​ ​#​eb0062​;
+            ​        }
+        </​style​>
+    </​body​>
+
+</​html​>
